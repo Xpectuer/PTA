@@ -6,10 +6,12 @@
 //  Copyright © 2020 Alex. All rights reserved.
 //
 
-#include <iostream>
+#include <stdio.h>
 
+#include "codeup1934.hpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    //int n;
+    sequential();
     return 0;
-}
+}   

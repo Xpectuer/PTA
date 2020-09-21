@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA51F03D2512FC4F00E2EFB3 /* codeup_100000575_A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA51F03C2512FC4F00E2EFB3 /* codeup_100000575_A.cpp */; };
 		FA9E5BE62510682900BFC42B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9E5BE52510682900BFC42B /* main.cpp */; };
+		FA9E5BEF2510687F00BFC42B /* B1001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9E5BED2510687F00BFC42B /* B1001.cpp */; };
+		FA9E5BF225106F2C00BFC42B /* B1032.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9E5BF025106F2C00BFC42B /* B1032.cpp */; };
+		FAF75CF725145AE900C1E146 /* codeup1934.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF75CF525145AE900C1E146 /* codeup1934.cpp */; };
+		FAF75CFE2514672000C1E146 /* codeup10576E.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF75CFC2514672000C1E146 /* codeup10576E.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA51F03C2512FC4F00E2EFB3 /* codeup_100000575_A.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeup_100000575_A.cpp; sourceTree = "<group>"; };
+		FA51F03E2513089600E2EFB3 /* codeup_100000575_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = codeup_100000575_A.h; sourceTree = "<group>"; };
 		FA9E5BE22510682900BFC42B /* PTA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PTA; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9E5BE52510682900BFC42B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA9E5BED2510687F00BFC42B /* B1001.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B1001.cpp; sourceTree = "<group>"; };
+		FA9E5BEE2510687F00BFC42B /* B1001.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = B1001.hpp; sourceTree = "<group>"; };
+		FA9E5BF025106F2C00BFC42B /* B1032.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B1032.cpp; sourceTree = "<group>"; };
+		FA9E5BF125106F2C00BFC42B /* B1032.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = B1032.hpp; sourceTree = "<group>"; };
+		FAF75CF525145AE900C1E146 /* codeup1934.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeup1934.cpp; sourceTree = "<group>"; };
+		FAF75CF625145AE900C1E146 /* codeup1934.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = codeup1934.hpp; sourceTree = "<group>"; };
+		FAF75CFC2514672000C1E146 /* codeup10576E.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeup10576E.cpp; sourceTree = "<group>"; };
+		FAF75CFD2514672000C1E146 /* codeup10576E.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = codeup10576E.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +72,43 @@
 		FA9E5BE42510682900BFC42B /* PTA */ = {
 			isa = PBXGroup;
 			children = (
+				FAF75CFB251466EE00C1E146 /* Graph */,
+				FAF75CF425145A7000C1E146 /* Searching */,
+				FA9E5BEC2510683C00BFC42B /* Simulators */,
 				FA9E5BE52510682900BFC42B /* main.cpp */,
 			);
 			path = PTA;
+			sourceTree = "<group>";
+		};
+		FA9E5BEC2510683C00BFC42B /* Simulators */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E5BED2510687F00BFC42B /* B1001.cpp */,
+				FA9E5BEE2510687F00BFC42B /* B1001.hpp */,
+				FA9E5BF025106F2C00BFC42B /* B1032.cpp */,
+				FA9E5BF125106F2C00BFC42B /* B1032.hpp */,
+				FA51F03C2512FC4F00E2EFB3 /* codeup_100000575_A.cpp */,
+				FA51F03E2513089600E2EFB3 /* codeup_100000575_A.h */,
+			);
+			path = Simulators;
+			sourceTree = "<group>";
+		};
+		FAF75CF425145A7000C1E146 /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				FAF75CF525145AE900C1E146 /* codeup1934.cpp */,
+				FAF75CF625145AE900C1E146 /* codeup1934.hpp */,
+				FAF75CFC2514672000C1E146 /* codeup10576E.cpp */,
+				FAF75CFD2514672000C1E146 /* codeup10576E.hpp */,
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
+		FAF75CFB251466EE00C1E146 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF75CF725145AE900C1E146 /* codeup1934.cpp in Sources */,
+				FAF75CFE2514672000C1E146 /* codeup10576E.cpp in Sources */,
+				FA51F03D2512FC4F00E2EFB3 /* codeup_100000575_A.cpp in Sources */,
+				FA9E5BEF2510687F00BFC42B /* B1001.cpp in Sources */,
 				FA9E5BE62510682900BFC42B /* main.cpp in Sources */,
+				FA9E5BF225106F2C00BFC42B /* B1032.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
