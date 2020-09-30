@@ -6,12 +6,15 @@
 //  Copyright © 2020 Alex. All rights reserved.
 //
 
-#include <stdio.h>
+#include "BaseTransform.hpp"
 
-#include "codeup1934.hpp"
+#include <stdio.h>
 int main(int argc, const char * argv[]) {
     // insert code here...
     //int n;
-    sequential();
-    return 0;
+//    Solution* so=new Solution();
+//    so->cal8queens(0);es
+    //getchar();
+   // printSquare();
+    baseTrans();
 }   

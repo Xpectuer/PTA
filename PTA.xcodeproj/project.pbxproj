@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA51F03D2512FC4F00E2EFB3 /* codeup_100000575_A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA51F03C2512FC4F00E2EFB3 /* codeup_100000575_A.cpp */; };
 		FA9E5BE62510682900BFC42B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9E5BE52510682900BFC42B /* main.cpp */; };
-		FA9E5BEF2510687F00BFC42B /* B1001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9E5BED2510687F00BFC42B /* B1001.cpp */; };
-		FA9E5BF225106F2C00BFC42B /* B1032.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA9E5BF025106F2C00BFC42B /* B1032.cpp */; };
-		FAF75CF725145AE900C1E146 /* codeup1934.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF75CF525145AE900C1E146 /* codeup1934.cpp */; };
-		FAF75CFE2514672000C1E146 /* codeup10576E.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAF75CFC2514672000C1E146 /* codeup10576E.cpp */; };
+		FAB8C6FC251B8C620020D083 /* EightQueen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB8C6FA251B8C620020D083 /* EightQueen.cpp */; };
+		FAB8C706251C98710020D083 /* Backpacking01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAB8C704251C98710020D083 /* Backpacking01.cpp */; };
+		FAD1F76B2522CEC900D4CFBA /* Obama.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD1F7692522CEC900D4CFBA /* Obama.cpp */; };
+		FAEC9A422524156900543FF1 /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAEC9A402524156900543FF1 /* Date.cpp */; };
+		FAEC9A46252441B500543FF1 /* BaseTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAEC9A44252441B500543FF1 /* BaseTransform.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +36,16 @@
 		FA9E5BEE2510687F00BFC42B /* B1001.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = B1001.hpp; sourceTree = "<group>"; };
 		FA9E5BF025106F2C00BFC42B /* B1032.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B1032.cpp; sourceTree = "<group>"; };
 		FA9E5BF125106F2C00BFC42B /* B1032.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = B1032.hpp; sourceTree = "<group>"; };
+		FAB8C6FA251B8C620020D083 /* EightQueen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EightQueen.cpp; sourceTree = "<group>"; };
+		FAB8C6FB251B8C620020D083 /* EightQueen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EightQueen.hpp; sourceTree = "<group>"; };
+		FAB8C704251C98710020D083 /* Backpacking01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Backpacking01.cpp; sourceTree = "<group>"; };
+		FAB8C705251C98710020D083 /* Backpacking01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Backpacking01.hpp; sourceTree = "<group>"; };
+		FAD1F7692522CEC900D4CFBA /* Obama.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Obama.cpp; sourceTree = "<group>"; };
+		FAD1F76A2522CEC900D4CFBA /* Obama.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Obama.hpp; sourceTree = "<group>"; };
+		FAEC9A402524156900543FF1 /* Date.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Date.cpp; sourceTree = "<group>"; };
+		FAEC9A412524156900543FF1 /* Date.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Date.hpp; sourceTree = "<group>"; };
+		FAEC9A44252441B500543FF1 /* BaseTransform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseTransform.cpp; sourceTree = "<group>"; };
+		FAEC9A45252441B500543FF1 /* BaseTransform.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseTransform.hpp; sourceTree = "<group>"; };
 		FAF75CF525145AE900C1E146 /* codeup1934.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeup1934.cpp; sourceTree = "<group>"; };
 		FAF75CF625145AE900C1E146 /* codeup1934.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = codeup1934.hpp; sourceTree = "<group>"; };
 		FAF75CFC2514672000C1E146 /* codeup10576E.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = codeup10576E.cpp; sourceTree = "<group>"; };
@@ -72,6 +82,7 @@
 		FA9E5BE42510682900BFC42B /* PTA */ = {
 			isa = PBXGroup;
 			children = (
+				FAB8C6F9251B8BCF0020D083 /* BackTracking */,
 				FAF75CFB251466EE00C1E146 /* Graph */,
 				FAF75CF425145A7000C1E146 /* Searching */,
 				FA9E5BEC2510683C00BFC42B /* Simulators */,
@@ -89,8 +100,25 @@
 				FA9E5BF125106F2C00BFC42B /* B1032.hpp */,
 				FA51F03C2512FC4F00E2EFB3 /* codeup_100000575_A.cpp */,
 				FA51F03E2513089600E2EFB3 /* codeup_100000575_A.h */,
+				FAD1F7692522CEC900D4CFBA /* Obama.cpp */,
+				FAD1F76A2522CEC900D4CFBA /* Obama.hpp */,
+				FAEC9A402524156900543FF1 /* Date.cpp */,
+				FAEC9A412524156900543FF1 /* Date.hpp */,
+				FAEC9A44252441B500543FF1 /* BaseTransform.cpp */,
+				FAEC9A45252441B500543FF1 /* BaseTransform.hpp */,
 			);
 			path = Simulators;
+			sourceTree = "<group>";
+		};
+		FAB8C6F9251B8BCF0020D083 /* BackTracking */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8C6FA251B8C620020D083 /* EightQueen.cpp */,
+				FAB8C6FB251B8C620020D083 /* EightQueen.hpp */,
+				FAB8C704251C98710020D083 /* Backpacking01.cpp */,
+				FAB8C705251C98710020D083 /* Backpacking01.hpp */,
+			);
+			path = BackTracking;
 			sourceTree = "<group>";
 		};
 		FAF75CF425145A7000C1E146 /* Searching */ = {
@@ -168,12 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF75CF725145AE900C1E146 /* codeup1934.cpp in Sources */,
-				FAF75CFE2514672000C1E146 /* codeup10576E.cpp in Sources */,
-				FA51F03D2512FC4F00E2EFB3 /* codeup_100000575_A.cpp in Sources */,
-				FA9E5BEF2510687F00BFC42B /* B1001.cpp in Sources */,
 				FA9E5BE62510682900BFC42B /* main.cpp in Sources */,
-				FA9E5BF225106F2C00BFC42B /* B1032.cpp in Sources */,
+				FAB8C706251C98710020D083 /* Backpacking01.cpp in Sources */,
+				FAD1F76B2522CEC900D4CFBA /* Obama.cpp in Sources */,
+				FAEC9A46252441B500543FF1 /* BaseTransform.cpp in Sources */,
+				FAB8C6FC251B8C620020D083 /* EightQueen.cpp in Sources */,
+				FAEC9A422524156900543FF1 /* Date.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
