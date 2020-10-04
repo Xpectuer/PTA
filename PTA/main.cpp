@@ -6,7 +6,7 @@
 //  Copyright © 2020 Alex. All rights reserved.
 //
 
-#include "BaseTransform.hpp"
+#include "1.hpp"
 
 #include <stdio.h>
 int main(int argc, const char * argv[]) {
@@ -16,5 +16,12 @@ int main(int argc, const char * argv[]) {
 //    so->cal8queens(0);es
     //getchar();
    // printSquare();
-    baseTrans();
-}   
+    //baseTrans();
+//    int* arr = nullptr;
+//    arr=generateArray(arr,100,1);
+//    arr = shuffleArray(arr, 0, 100);
+//    for(int i =0 ;i<100;++i)
+//        printf("%d ",arr[i]);
+    
+    printResult();
+}
