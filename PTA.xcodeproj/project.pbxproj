@@ -39,7 +39,7 @@
 		FA87B01125528DFF003CAFA1 /* Serialize.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Serialize.hpp; sourceTree = "<group>"; };
 		FA8FD0DA253C7ADA00A55130 /* Hash_table */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Hash_table; sourceTree = "<group>"; };
 		FA8FD0DB253C7ADA00A55130 /* misc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = misc; sourceTree = "<group>"; };
-		FA8FD0DC253C7ADA00A55130 /* Dynamic_Planning */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dynamic_Planning; sourceTree = "<group>"; };
+		FA8FD0DC253C7ADA00A55130 /* Dynamic_Programming */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dynamic_Programming; sourceTree = "<group>"; };
 		FA9E5BE22510682900BFC42B /* PTA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PTA; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9E5BE52510682900BFC42B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA9E5BED2510687F00BFC42B /* B1001.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B1001.cpp; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 				FAF225612545B11600C5159F /* Stack&Queue */,
 				FAA54C3C253FDCC800AAE523 /* Array */,
 				FAA54C37253FCE7A00AAE523 /* StringPairing */,
-				FA8FD0DC253C7ADA00A55130 /* Dynamic_Planning */,
+				FA8FD0DC253C7ADA00A55130 /* Dynamic_Programming */,
 				FA8FD0DA253C7ADA00A55130 /* Hash_table */,
 				FA8FD0DB253C7ADA00A55130 /* misc */,
 				FA7ACD38253ABAD000D91C3F /* Sorting */,
