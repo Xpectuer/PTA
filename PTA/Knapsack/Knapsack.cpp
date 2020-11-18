@@ -253,3 +253,49 @@ void rmFKnap(int index_knap, Item item,vector<Knap> &knaps,vector<int> &solution
     knaps[index_knap] = knap;
     solution[item.id] = -1;
 }
+
+// testing cases
+int main() {
+    //id  weight value
+     Item item1(0,2,11);
+     Item item2(1,5,2);
+     Item item3(2,7,10);
+     Item item4(3,6,20);
+     Item item5(4,7,7);
+     Item item6(5,9,12);
+     Item item7(6,1,20);
+     Item item8(7,5,50);
+     vector<Item> items = {item1,item2,item3,item4,item5,item6,item7,item8};
+    
+    priority_queue<Knap,vector<Knap>,greater<Knap>> kpq;
+    //        id , capacity
+    Knap knap1(1,8);
+    Knap knap2(2,6);
+    Knap knap3(3,4);
+    Knap knap4(4,10);
+    Knap knap5(5,4);
+    Knap knap6(6,20);
+    vector<Knap> knaps = {knap1,knap2,knap3,knap4,knap5,knap6};
+    
+    vector<int> rs = knapsack(items, knaps);
+    
+    printf("Initial Solution: \n");
+    for(int i:rs) printf("%d ",i);
+    
+    printf("\n");
+    printf("Value: %d\n",getValue(rs, items));
+
+    vector<int> rs_b = neighbourhood(rs, items, knaps);
+
+
+
+
+    printf("Better Solution：\n");
+    for(int i:rs_b) printf("%d ",i);
+    printf("\n");
+    printf("Value: %d\n",getValue(rs_b, items));
+    printf("\n");
+    
+    
+    return 0;
+}
